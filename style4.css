@@ -1,0 +1,219 @@
+/*STYLE 4*/
+
+body {
+ 
+  background-color:#f8dbff;
+}
+
+
+h1{
+  border: solid;
+  border-color: #59288f;
+  color: darkorange;
+  text-transform: uppercase;
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  text-align: left;
+  text-decoration: none;
+  padding: 1.5rem;
+  transform: 2ms ease-in;
+  position: relative;
+  width: 900px;
+  margin-left: 400px;
+}
+h1:before{
+  content: ' ';
+  position: center;
+  bottom: 0px;
+  left: 0px;
+  width: 0px;
+  height: 1px;
+  background-color:#59288f;
+  transition: all 1.5s ease;
+}
+h1:hover:before{
+  width: 100px;
+}
+h2{
+  color: #59288f;
+  text-align: center;
+  margin-top: -50px;
+  border:solid;
+  border-color: #59288f;
+  border-radius: 10%;
+  font-size: 200%;
+  font-family: cursive;
+  width: 500px;
+  margin-left: 600px;
+  margin-top: 10px;
+}
+h2:hover{
+  background-color: #59288f;
+  color: darkorange;
+  box-shadow: 2px 20px 25px #dc2e685d;
+  border-color: #dc2e685d;
+}
+  .main-top{
+  position: center;
+  left: 7%;
+  top:135%;
+  margin-top: -40px;
+  margin-left:700px;
+}
+  .foto-insta {
+    position: center;
+    left: 100%;
+    top: 10%;
+    margin-top: -0px;
+    margin-left: 600px;
+
+  }
+  .foto-face {
+    position: center;
+    left: 100%;
+    top: 10%;
+    margin-top: 100px;
+    margin-left: 50px;
+   }
+  .foto-whats {
+    position: center;
+    left: 100%;
+    top: 10%;
+    margin-top: -0px;
+    margin-left: 60px;
+   }
+  .foto-github{
+    position: center;
+    left: 100%;
+    top: 10%;
+    margin-top: -0px;
+    margin-left: 70px;
+   }
+  .foto-email {
+    position: center;
+    left: 100%;
+    top: 10%;
+    margin-top: -0px;
+    margin-left: 60px;
+   }
+   .main-button{
+    position: absolute;
+    left: 60%;
+    top:3.5%;
+    margin-top: -15px;
+    margin-left: 55px;
+   }
+   .rodape p{
+    position: absolute;
+    color: black;
+    font-size: 10px;
+    font-family: sans-serif;
+    margin-top: 220px;
+    margin-left: 800px;
+  }
+  .rodape address{
+    position: absolute;
+    color:black;
+    font-size: 10px;
+    font-family: sans-serif;
+    margin-top: 250px;
+    margin-left:720px;
+  }
+  @media(max-width:1550px){
+    main{
+        width: 1100px;
+    }
+    h1{
+      margin-left: 300px;
+    }
+    .main-top{
+      margin-left: 550px;
+    }
+    h2{
+      margin-left: 500px;
+    }
+    .rodape p{
+      margin-left: 680px;
+      top: 85%; 
+      margin-top: 10px;
+      font-size: 10px; 
+    }
+    .rodape address{
+      margin-left: 600px;
+      top: 89%; 
+      margin-top: 10px;
+      font-size: 10px;
+    }
+    .social{
+      margin-left: -50px;
+    }
+  }
+  @media(max-width:1000px){
+    main{
+        width: 700px;
+    }
+    h1{
+      margin-left: 200px;
+      width: 500px;
+    }
+  .main-top{
+    margin-left: 300px;
+  }
+  h2{
+    margin-left: 250px;
+    width: auto;
+  }
+  .rodape p{
+    margin-left: 380px;
+    top: 85%; 
+    margin-top: 10px;
+    font-size: 10px; 
+  }
+  .rodape address{
+    margin-left: 300px;
+    top: 89%; 
+    margin-top: 10px;
+    font-size: 10px;
+  }
+  .social{
+    margin-left: -330px;
+   
+  }
+}
+@media(max-width:700px){
+  main{
+      width: 40px;
+  }
+  h1{
+    margin-left: 100px;
+    width: 400px;
+  }
+  .main-top{
+    margin-left: 160px;
+  }
+  h2{
+    width: 330px;
+    margin-left: 150px;
+  }
+  .rodape p{
+    margin-left: 280px;
+    top: 68%; 
+    margin-top: 10px;
+    font-size: 10px; 
+  }
+  .rodape address{
+    margin-left: 200px;
+    top: 70%; 
+    margin-top: 10px;
+    font-size: 10px;
+  }
+  .social{
+    margin-left: 160px;
+    width: 900px;
+    margin-top: -90px;
+  }
+  .foto-insta{
+    margin-left: -35px;
+  }
+}

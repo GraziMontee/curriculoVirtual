@@ -1,0 +1,180 @@
+/*STYLE 3*/
+
+body {
+ 
+  background-color:#f8dbff;
+}
+main{
+
+}
+
+
+h1{
+  border: solid;
+  border-color: #59288f;
+  color: darkorange;
+  text-transform: uppercase;
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  text-align: absolute;
+  margin-left: 400px;
+  text-decoration: none;
+  padding: 1.5rem;
+  transform: 2ms ease-in;
+  position: relative;
+  width: 900px;
+}
+h1:before{
+  content: ' ';
+  position: center;
+  bottom: 0px;
+  left: 0px;
+  width: 0px;
+  height: 1px;
+  background-color:#59288f;
+  transition: all 1.5s ease;
+}
+h1:hover:before{
+  width: 100px;
+}
+.fototopo{
+  position: absolute;
+  left: 21.5%;
+  top:3%;
+  margin-top: -0px;
+  margin-left: -21px;
+}
+.coraline{
+  position: absolute;
+  margin-left: -150px;
+  margin-top: -0px;
+  left: 45%;
+  top: 25%;
+ }
+
+.foto-html{
+  position:absolute;
+  margin-left: -0px;
+  margin-top: -0px;
+  left: 40%;
+  top:15%;
+  box-shadow: 2px 20px 25px #dc2e685d;
+  border-radius: 35%;
+}
+.foto-java{
+  position:absolute;
+  margin-left: -0px;
+  margin-top: -0px;
+  left: 40%;
+  top:35%;
+  box-shadow: 2px 20px 25px #dc2e685d;
+  border-radius: 45%;
+  
+}
+.foto-css{
+  position:absolute;
+  margin-left: -0px;
+  margin-top: -0px;
+  left: 40%;
+  top:55%;
+  box-shadow: 2px 20px 25px #dc2e685d;
+  border-radius: 35%;
+  
+}
+.foto-js {
+  position: absolute;
+  margin-left: -0px;
+  margin-top: -0px;
+  left: 40%;
+  top: 75%;
+  box-shadow: 2px 2px 25px #dc2e685d;
+  border-radius: 35%;
+ }
+ .rodape p{
+  position: absolute;
+  color: black;
+  font-size: 10px;
+  font-family: sans-serif;
+  margin-top: 770px;
+  margin-left: 775px;
+}
+.rodape address{
+  position: absolute;
+  color:black;
+  font-size: 10px;
+  font-family: sans-serif;
+  margin-top: 800px;
+  margin-left:680px;
+}
+@media(max-width:1550px){
+  main{
+      width: 1000px;
+  }
+  h1{
+    margin-left: 300px;
+  }
+  .fototopo{
+    margin-left: -50px;
+  }
+  .rodape p{
+    margin-left: 675px;
+    top: 87%; 
+    margin-top: 10px;
+    font-size: 10px; 
+  }
+  .rodape address{
+    margin-left: 590px;
+    top: 89%; 
+    margin-top: 10px;
+    font-size: 10px;
+  }
+}@media(max-width:1000px){
+  main{
+      width: 750px;
+  }
+  h1{
+    margin-left: 150px;
+    width: auto;
+  }
+  .fototopo{
+    margin-left: -88px;
+  }
+  .rodape p{
+    margin-left: 375px;
+    top: 87%; 
+    margin-top: 10px;
+    font-size: 10px; 
+  }
+  .rodape address{
+    margin-left: 290px;
+    top: 89%; 
+    margin-top: 10px;
+    font-size: 10px;
+  }
+}
+@media(max-width:700px){
+  main{
+      width: 400px;
+  }
+  h1{
+    margin-left: 100px;
+    width: 400px;
+  }
+  .fototopo{
+    margin-left: -70px;
+  }
+  .rodape p{
+    margin-left: 260px;
+    top: 87%; 
+    margin-top: 10px;
+    font-size: 10px; 
+  }
+  .rodape address{
+    margin-left: 180px;
+    top: 89%; 
+    margin-top: 10px;
+    font-size: 10px;
+  }
+}
+

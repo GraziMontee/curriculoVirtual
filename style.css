@@ -1,0 +1,338 @@
+/* STYLE 1 */
+
+/* Zerando CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Fundo-tela */
+
+html {
+    width: 50vw;
+    height: 50vh;
+    font-size: 50.5%;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+body {
+   background-color:#f8dbff;
+   width: 100%;
+    height: 7vh;
+}
+
+
+/* Menu - Header - NavBar */
+
+header {
+    width: 200%;
+    height: 7vh;
+    /*background-color: rgba(22, 22, 22, 0.2);*/
+    background-color: #59288f;
+}
+
+.menu-content {
+    text-transform: uppercase;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+.logo {
+    font-size: 1.8rem;
+    margin-left: -150px;
+    letter-spacing: 1.4rem;
+    cursor: pointer;
+    color:darkorange;
+}
+
+.menu-content .list-itens {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    font-size: 2rem;
+}
+
+.menu-content .list-itens a {
+    text-decoration: none;
+    color: white;
+    padding: 1.5rem;
+    transform: 2ms ease-in;
+    position: relative;
+}
+
+
+.menu-content .list-itens a:before {
+    content: ' ';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width:0px;
+    height: 1px;
+    background-color: darkorange;
+    transition: all 1.5s ease; 
+}
+
+.menu-content .list-itens a:hover:before {
+    width: 100%;
+}
+
+/* Centro - Conteudo Principal */
+
+main {
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    margin: auto;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fotoperfil{
+    position: absolute;
+    margin: 30rem;
+    border-radius: 50%;
+    height: 30%;
+    width: 15%;
+    left: 45%;
+    top: 20%;
+    margin-top: -50px;
+    margin-left: 10px;
+}
+
+
+/* Textos conteudo principal */
+
+.primary-text {
+    width: 400px;
+    height: 30px;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-align: absolute;
+    left: 500%;
+    margin-top: -0px;
+    margin-left:1020px ;
+    background-color: #59288f;
+}
+
+.second-text {
+    margin-bottom: 7rem;
+    font-size: 2rem;
+    color: rgb(165, 165, 165);
+    text-transform: uppercase;
+    text-align: absolute;
+    margin-left:1000px ;
+}
+
+/* Botões */
+
+
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: absolute;
+    left:37%;
+    top:70% ;
+    margin-top: -50px;
+    margin-left:-10px ;
+}
+
+.btns button {
+  width: 250px;
+  height: 60px;
+  cursor: pointer;
+  border: 1px solid white;
+  color: white;
+  text-transform: uppercase;
+  background-color: transparent;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  border-radius: 20px;
+  position: relative;
+  transition: 1.5s;
+}
+
+.btns button:hover {
+  color: darkorange;
+  border: none;
+}
+
+.btns button:before {
+  content: ' ';
+  border-radius: 20px;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 0;
+  height: 60px;
+  background-color: #59288f;
+  z-index: -1;
+  transition: 1s;
+}
+
+.btns button:hover:before {
+    width: 100%;
+}
+
+/*Rodapé do site*/
+
+.fotorodape{
+  position: absolute;
+  left: 47%;
+  top:70%;
+  margin-left: -50px;
+  margin-top: -25px;
+}
+.rodape p{
+  position: absolute;
+  color: black;
+  font-size: 10px;
+  font-family: sans-serif;
+  margin-top: -70px;
+  margin-left: 900px;
+}
+.rodape address{
+  position: absolute;
+  color:black;
+  font-size: 10px;
+  font-family: sans-serif;
+  margin-top: -50px;
+  margin-left:800px;
+}
+@media(max-width:1550px){
+    main{
+        width: 1000px;
+    }
+    .primary-text{
+      margin-right: 350px;  
+    }
+    .second-text{
+        margin-right: 350px;  
+      }
+      .fotoperfil{
+        border-radius: 100%;
+        height: 25%;
+        width: 20%;
+
+      }
+      .fotorodape{
+        margin-left: 3px;
+      }
+      .rodape p{
+        margin-left: 775px;
+        top: 85%; 
+        margin-top: 10px;
+        font-size: 10px; 
+      }
+      .rodape address{
+        margin-left: 690px;
+        top: 89%; 
+        margin-top: 10px;
+        font-size: 10px;
+      }
+      header{
+        width:1700px;
+      }
+}
+@media(max-width:1000px){
+    main{
+        width: 1000px;
+    }
+    .primary-text{
+      margin-right: 780px;  
+    }
+    .second-text{
+        margin-right: 780px;  
+      }
+      .fotoperfil{
+        border-radius: 100%;
+        height: 25%;
+        width: 20%;
+        margin-left: 55px;
+
+      }
+      .fotorodape{
+        margin-left: 25px;
+      }
+      .rodape p{
+        margin-left: 580px;
+        top: 85%; 
+        margin-top: 10px;
+        font-size: 10px; 
+      }
+      .rodape address{
+        margin-left: 500px;
+        top: 89%; 
+        margin-top: 10px;
+        font-size: 10px;
+      }
+      header{
+        width:1500px;
+      }
+      .list-itens{
+        margin-right: 400px;
+      }
+      .logo{
+        margin-left: 5px;
+      }
+}
+@media(max-width:700px){
+    main{
+        width:400px;
+    }
+    .primary-text{
+      margin-right: 45%;
+    }
+    .second-text{
+        margin-right: 45%;  
+      }
+      .fotoperfil{
+        border-radius: 100%;
+        height: 25%;
+        width: 30%;
+        margin-left: 1px;
+
+      }
+      .fotorodape{
+       margin-left: -50px;
+      }
+      .rodape p{
+        margin-left: 320px;
+        top: 85%; 
+        margin-top: 10px;
+        font-size: 10px; 
+      }
+      .rodape address{
+        margin-left: 220px;
+        top: 89%; 
+        margin-top: 10px;
+        font-size: 10px;
+      }
+      header{
+        width:900px;
+      }
+      .list-itens{ 
+        margin-right: 220px;
+      }
+      .logo{
+        margin-left:5px;
+        font-size: 10px;
+      }
+      .btns button{
+        margin-right: 30px;
+        width: auto;
+        right: 60px;
+      }
+}
